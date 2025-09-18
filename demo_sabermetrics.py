@@ -31,10 +31,11 @@ class MLBAnalyticsDemo:
     def display_header(self):
         """Display the demo header"""
         print("=" * 70)
-        print("⚾ MLB SABERMETRICS DASHBOARD - PORTFOLIO DEMONSTRATION")
+        print("⚾ THE BASEBALL NERD'S ULTIMATE STATS DASHBOARD")
         print("=" * 70)
-        print("Advanced Baseball Analytics & Player Comparison Platform")
-        print(f"Demo Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        print("\"Numbers don't lie - they just tell better stories than your uncle.\"")
+        print(f"Running the numbers: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        print("\nLet's settle some arguments with actual data...")
         print()
     
     def demo_individual_analysis(self):
